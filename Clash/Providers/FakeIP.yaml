@@ -3,5 +3,5 @@
 # 参考： https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash的Rule Provider功能，详见https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 payload:
-- DOMAIN-SUFFIX,right.com.cn
+- DOMAIN-SUFFIX,right.com.cn  #恩山无线论坛
 

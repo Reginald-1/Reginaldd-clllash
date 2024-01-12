@@ -1,7 +1,0 @@
-payload:
-  # 自制广告拦截规则
-
-  # 漫画软件广告
-  # 参照：https://github.com/AdguardTeam/AdguardFilters  MobileFilter/sections/adservers.txt
-  # 瞄趣漫画
-  - DOMAIN-SUFFIX,p1-lm.adukwai.com

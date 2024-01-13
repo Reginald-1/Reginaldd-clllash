@@ -2,6 +2,24 @@ payload:
   # 自制广告拦截规则
 
   # 漫画软件广告
-  # 参照：https://github.com/AdguardTeam/AdguardFilters  MobileFilter/sections/adservers.txt
+
+  # -------------------------瞄趣漫画 Start-------------------------------------------------------------
   # 瞄趣漫画
+
+  # ChatGPT判断：根据我查到的信息，p1-lm.adukwai.com是一个广告域名，被一家安全供应商标记为恶意域名
+  # 依据：https://github.com/AdguardTeam/AdguardFilters  MobileFilter/sections/adservers.txt
+  # 依据：https://github.com/privacy-protection-tools/anti-AD/issues/768
   - DOMAIN-SUFFIX,p1-lm.adukwai.com
+   
+  # 2024-01-13
+  # ChatGPT判断：根据我查到的信息，c.sayhi.360.cn是360的子域名，但是不知道提供什么服务。根据VirusTotal的报告，该域名被1家安全供应商标记为恶意域名1。但是，Scamadviser的报告显示，c.sayhi.360.cn是合法的，安全可靠2。Kaspersky的报告显示，该域名存在威胁、恶意软件和病毒3。如果您需要更多帮助，请告诉我。
+  # 依据：https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
+  # 依据： https://github.com/AdguardTeam/AdguardFilters SpywareFilter/sections/mobile.txt
+  - DOMAIN-SUFFIX,c.sayhi.360.cn
+  
+
+
+
+
+  # --------------------------瞄趣漫画 End---------------------------------------------
+

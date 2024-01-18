@@ -26,13 +26,13 @@ payload:
 
   # copilot判断：这四行表示这个漫画 APP 向 api-access.pangolin-sdk-toutiao1.com 发送了四个 TCP 请求，这个域名是穿山甲广告平台的 API 接入服务器，用于获取广告的素材、配置等信息。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com3
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com
-  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao5.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com3
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com
+  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao5.com
 
   # copilot判断：这一行表示这个漫画 APP 向 gdfp.gifshow.com 发送了一个 TCP 请求，这个域名是 快手 的广告平台，用于展示快手的广告内容。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt

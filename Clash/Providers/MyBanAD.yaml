@@ -42,7 +42,7 @@ payload:
 
   # 您访问的 open.e.kuaishou.com 这个域名的 IP 地址位于中国，它是快手的一个开放平台，提供视频、直播、小程序等服务，您的网络连接使用的是 RuleSet(ChinaDomain) 这个规则，这可能是为了保证访问的稳定性和速度。
   # 依据 https://github.com/AdguardTeam/AdguardFilters  MobileFilter/sections/adservers.txt
-  - DOMAIN-SUFFIX,open.e.kuaishou.com
+  # - DOMAIN-SUFFIX,open.e.kuaishou.com
 
 
 

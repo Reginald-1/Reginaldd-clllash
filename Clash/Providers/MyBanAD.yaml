@@ -22,7 +22,7 @@ payload:
   # copilot判断：我是根据您提供的数据中的域名 panglelog.gz.bcebos.com 来确定它是属于穿山甲广告平台的。这个域名的前缀 panglelog 是穿山甲的英文名称，
   # 表示它是用于记录穿山甲的广告日志的服务器。我在网上搜索了这个域名，也发现了一些相关的文章，比如 记一次白嫖百度云BOS的经历 ，
   # 其中也提到了 panglelog.gz.bcebos.com 这个域名是穿山甲的广告日志服务器。因此，我认为 panglelog.gz.bcebos.com 是属于穿山甲广告平台的一个子域名，用于收集和分析广告数据。
-  # - DOMAIN-SUFFIX,panglelog.gz.bcebos.com
+  - DOMAIN-SUFFIX,panglelog.gz.bcebos.com
 
   # copilot判断：这四行表示这个漫画 APP 向 api-access.pangolin-sdk-toutiao1.com 发送了四个 TCP 请求，这个域名是穿山甲广告平台的 API 接入服务器，用于获取广告的素材、配置等信息。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
@@ -37,7 +37,7 @@ payload:
   # copilot判断：这一行表示这个漫画 APP 向 gdfp.gifshow.com 发送了一个 TCP 请求，这个域名是 快手 的广告平台，用于展示快手的广告内容。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
   # 依据 https://github.com/AdguardTeam/AdguardBrowserExtension Extension/filters/edge/filter_mobile_11.txt
-  - DOMAIN-SUFFIX,gdfp.gifshow.com
+  # - DOMAIN-SUFFIX,gdfp.gifshow.com
 
 
   # 您访问的 open.e.kuaishou.com 这个域名的 IP 地址位于中国，它是快手的一个开放平台，提供视频、直播、小程序等服务，您的网络连接使用的是 RuleSet(ChinaDomain) 这个规则，这可能是为了保证访问的稳定性和速度。

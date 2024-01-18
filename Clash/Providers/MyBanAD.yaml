@@ -22,17 +22,17 @@ payload:
   # copilot判断：我是根据您提供的数据中的域名 panglelog.gz.bcebos.com 来确定它是属于穿山甲广告平台的。这个域名的前缀 panglelog 是穿山甲的英文名称，
   # 表示它是用于记录穿山甲的广告日志的服务器。我在网上搜索了这个域名，也发现了一些相关的文章，比如 记一次白嫖百度云BOS的经历 ，
   # 其中也提到了 panglelog.gz.bcebos.com 这个域名是穿山甲的广告日志服务器。因此，我认为 panglelog.gz.bcebos.com 是属于穿山甲广告平台的一个子域名，用于收集和分析广告数据。
-  - DOMAIN-SUFFIX,panglelog.gz.bcebos.com
+  # - DOMAIN-SUFFIX,panglelog.gz.bcebos.com
 
   # copilot判断：这四行表示这个漫画 APP 向 api-access.pangolin-sdk-toutiao1.com 发送了四个 TCP 请求，这个域名是穿山甲广告平台的 API 接入服务器，用于获取广告的素材、配置等信息。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com3
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com
-  # - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao5.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com3
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao5.com
 
   # copilot判断：这一行表示这个漫画 APP 向 gdfp.gifshow.com 发送了一个 TCP 请求，这个域名是 快手 的广告平台，用于展示快手的广告内容。
   # 依据 https://github.com/TG-Twilight/AWAvenue-Ads-Rule  build/rule/domain.txt
